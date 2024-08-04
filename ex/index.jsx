@@ -8,6 +8,7 @@ const root = ReactDOMClient.createRoot(container)
 
 root.render(
     <div>
-        <ClassComponent value='Componente de Classe' />
+        {/* Note que para passar um parâmetro do tipo NUMÉRICO usa-se CHAVES em vez de aspas! */}
+        <ClassComponent label='Contador' initialValue={10} />
     </div>
 )
