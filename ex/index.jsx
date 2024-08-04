@@ -9,9 +9,7 @@ const root = ReactDOMClient.createRoot(container)
 
 root.render(
     <div>
-        {/* Aqui não apenas o componente principal chamado terá `props` */}
         <Family lastName='Silva'>
-            {/* Mas também o componente `Filho` (chamado dentro dele), terá suas próprias `props` */}
             <Member name='Guilherme' />
             <Member name='Rafael' />
             <Member name='Julia' />
